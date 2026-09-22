@@ -62,4 +62,7 @@ author: ZELDOgiq
 ## Für unser Setup
 - ✅ Ollama: läuft auf 192.168.0.147
 - ✅ LM Studio: installiert auf Win11
-- ⚠️ WebLLM: browserbasiert, noch nicht getestet
+- ✅ WebLLM: GETESTET! Browser-basiert, läuft
+  - Modell: Llama-3.2-1B-Instruct-q4f32_1-MLC
+  - URL: https://chat.webllm.ai/
+  - Features: Prompts, Settings, Quick Prompts, System Prompt
