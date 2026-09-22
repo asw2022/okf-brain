@@ -30,6 +30,7 @@ updated: 2026-09-22
 - [[LieferApp-Management]] — Märkte, PLZ-Round-Robin, Fahrer
 - [[Kanban-Management]] — Task Flow: todo → done
 - [[Proposal-Generator]] — Kundenproposal erstellen
+- [[Hermes-Quant-Trading]] — Autonomous Quant Engine
 
 ### References (`references/`)
 - [[Marie-OKF-Video]] — Build an OKF brain like mine! (2026-06-26)
