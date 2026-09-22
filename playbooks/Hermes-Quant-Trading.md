@@ -38,11 +38,27 @@ Position: 1 long BTC @ 7% NAV
 P&L heute: +$12.34 (paper)
 ```
 
+## Test-Ergebnis (2026-09-22)
+```
+hermes quant doctor    → "quant" ist kein hermes CLI-Befehl
+hermes quant start    → nicht verfügbar
+```
+
+⚠️ **hermes quant ist NICHT im Hermes CLI integriert.**
+Es ist ein separates Tool (baladithyab/hermes-quant auf GitHub).
+
+## Setup (separat installieren)
+```bash
+pip install hermes-quant
+hermes quant setup conservative
+hermes quant doctor
+```
+
 ## Für unser System
-- Ollama 192.168.0.147 als Host
-- CPU-only kompatibel
+- Ollama 192.168.0.147 als Host möglich
+- CPU-only brauchbar
 - yfinance für Daten
-- **NUR Paper Trading bis验证完成**
+- Paper Trading only bis verifiziert
 
 ## Safety Rules
 1. Never go live without 48h paper testing
