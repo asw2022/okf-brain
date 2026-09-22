@@ -39,6 +39,7 @@ updated: 2026-09-22
 - [[Karpathy-OKF-Gist]] — Karpathy OKF Implementation
 - [[Hermes-200IQ-Prompt]] — Joon Ahn prompt technique
 - [[Hermes-Autonomous-Quant]] — Quant Trading Engine
+- [[ZELDOgiq-Endlich-Unzensiert]] — 3 Wege für unzensierte KI
 
 ### Systems (`systems/`)
 - [[Ollama-Setup]] — Linux Ollama + 3 Modelle

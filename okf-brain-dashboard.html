@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>OKF Brain — ASW</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #0d1117; color: #c9d1d9; padding: 24px; max-width: 1200px; margin: 0 auto; }
+h1 { color: #58a6ff; font-size: 1.6rem; margin-bottom: 8px; }
+h2 { color: #c9d1d9; font-size: 1.1rem; margin: 20px 0 12px; border-bottom: 1px solid #21262d; padding-bottom: 6px; }
+.meta { color: #8b949e; font-size: 0.85rem; margin-bottom: 20px; }
+.tree { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 12px; }
+.folder { background: #161b22; border: 1px solid #21262d; border-radius: 8px; padding: 14px; }
+.folder h3 { color: #58a6ff; font-size: 0.9rem; margin-bottom: 8px; display: flex; align-items: center; gap: 6px; }
+.folder h3::before { content: '📁'; font-size: 0.85rem; }
+.file { background: #0d1117; border: 1px solid #21262d; border-radius: 6px; padding: 8px 10px; margin: 4px 0; font-size: 0.82rem; display: flex; justify-content: space-between; align-items: center; }
+.file .name { color: #c9d1d9; }
+.file .tag { color: #58a6ff; font-size: 0.7rem; background: #1f6feb22; padding: 2px 6px; border-radius: 10px; }
+.file .type { color: #8b949e; font-size: 0.7rem; }
+.stat { display: flex; gap: 16px; margin: 16px 0; flex-wrap: wrap; }
+.stat-box { background: #161b22; border: 1px solid #21262d; border-radius: 8px; padding: 12px 16px; text-align: center; min-width: 100px; }
+.stat-box .num { color: #58a6ff; font-size: 1.4rem; font-weight: bold; }
+.stat-box .label { color: #8b949e; font-size: 0.75rem; margin-top: 2px; }
+.cmd { background: #161b22; border: 1px solid #21262d; border-radius: 6px; padding: 10px 14px; font-family: 'SF Mono', monospace; font-size: 0.8rem; color: #7ee787; margin: 6px 0; overflow-x: auto; }
+.warn { color: #d29922; font-size: 0.8rem; }
+.ok { color: #3fb950; font-size: 0.8rem; }
+a { color: #58a6ff; text-decoration: none; }
+a:hover { text-decoration: underline; }
+table { width: 100%; border-collapse: collapse; margin: 8px 0; font-size: 0.82rem; }
+th, td { text-align: left; padding: 6px 10px; border-bottom: 1px solid #21262d; }
+th { color: #58a6ff; font-weight: 600; }
+</style>
+</head>
+<body>
+
+<h1>🧠 OKF Brain — ASW</h1>
+<p class="meta">G:/Download/OKF-Brain/ | 16 Dateien | 6 Playbooks | 6 References | 3 Konzepte | 2 Systeme | 1 Entity | GitHub: asw2022/okf-brain</p>
+
+<div class="stat">
+  <div class="stat-box"><div class="num">16</div><div class="label">Dateien</div></div>
+  <div class="stat-box"><div class="num">6</div><div class="label">Playbooks</div></div>
+  <div class="stat-box"><div class="num">6</div><div class="label">References</div></div>
+  <div class="stat-box"><div class="num">3</div><div class="label">Konzepte</div></div>
+  <div class="stat-box"><div class="num">2</div><div class="label">Systeme</div></div>
+  <div class="stat-box"><div class="num">1</div><div class="label">Entity</div></div>
+  <div class="stat-box"><div class="num">5</div><div class="label">Commits</div></div>
+</div>
+
+<h2>📁 Struktur</h2>
+<div class="tree">
+  <div class="folder">
+    <h3>index.md</h3>
+    <div class="file"><span class="name">Discovery Hub</span><span class="type">root</span></div>
+  </div>
+  <div class="folder">
+    <h3>concepts/</h3>
+    <div class="file"><span class="name">OKF-Format.md</span><span class="tag">concept</span></div>
+    <div class="file"><span class="name">Hermes-Agent.md</span><span class="tag">concept</span></div>
+    <div class="file"><span class="name">SEO-Agentur.md</span><span class="tag">concept</span></div>
+    <div class="file"><span class="name">Prompt-Engineering.md</span><span class="tag">concept</span></div>
+  </div>
+  <div class="folder">
+    <h3>entities/</h3>
+    <div class="file"><span class="name">Hermes-Desktop.md</span><span class="tag">entity</span></div>
+  </div>
+  <div class="folder">
+    <h3>playbooks/</h3>
+    <div class="file"><span class="name">OKF-Ingest.md</span><span class="tag">playbook</span></div>
+    <div class="file"><span class="name">OKF-Query.md</span><span class="tag">playbook</span></div>
+    <div class="file"><span class="name">Google-Update-Analyse.md</span><span class="tag">playbook</span></div>
+    <div class="file"><span class="name">LieferApp-Management.md</span><span class="tag">playbook</span></div>
+    <div class="file"><span class="name">Kanban-Management.md</span><span class="tag">playbook</span></div>
+    <div class="file"><span class="name">Proposal-Generator.md</span><span class="tag">playbook</span></div>
+    <div class="file"><span class="name">Hermes-Quant-Trading.md</span><span class="tag">playbook</span></div>
+  </div>
+  <div class="folder">
+    <h3>references/</h3>
+    <div class="file"><span class="name">Marie-OKF-Video.md</span><span class="tag">reference</span></div>
+    <div class="file"><span class="name">Marie-OKF-Video-Transcript.md</span><span class="tag">reference</span></div>
+    <div class="file"><span class="name">OKF-Google-Spec.md</span><span class="tag">reference</span></div>
+    <div class="file"><span class="name">OKF-GitHub-SPEC.md</span><span class="tag">reference</span></div>
+    <div class="file"><span class="name">Karpathy-OKF-Gist.md</span><span class="tag">reference</span></div>
+    <div class="file"><span class="name">Hermes-200IQ-Prompt.md</span><span class="tag">reference</span></div>
+    <div class="file"><span class="name">Hermes-Autonomous-Quant.md</span><span class="tag">reference</span></div>
+  </div>
+  <div class="folder">
+    <h3>systems/</h3>
+    <div class="file"><span class="name">Ollama-Setup.md</span><span class="tag">system</span></div>
+  </div>
+</div>
+
+<h2>🎬 Analysen (YouTube)</h2>
+<table>
+  <tr><th>Video</th><th>Kanal</th><th>Typ</th><th>Key Takeaway</th></tr>
+  <tr>
+    <td><a href="https://www.youtube.com/watch?v=aIQ7J4rLxhg" target="_blank">Hermes kann mehr, als du denkst</a></td>
+    <td>AI mit Arnie</td>
+    <td>Long (26:48)</td>
+    <td>HUD Mode, Multi-Bot, Abacus AI</td>
+  </tr>
+  <tr>
+    <td><a href="https://www.youtube.com/watch?v=FH0GgzUgqpI" target="_blank">Endlich unzensiert</a></td>
+    <td>ZELDOgiq</td>
+    <td>Short (8:19)</td>
+    <td>LM Studio / Ollama / WebLLM</td>
+  </tr>
+  <tr>
+    <td><a href="https://www.youtube.com/watch?v=esYAIA6lU-s" target="_blank">Build an OKF brain like mine!</a></td>
+    <td>Marie Haynes</td>
+    <td>Long (22:48)</td>
+    <td>OKF structure, Ingest+Query</td>
+  </tr>
+  <tr>
+    <td><a href="https://www.youtube.com/shorts/I2NCBAcNHL0" target="_blank">this prompt makes hermes agents 200 iq</a></td>
+    <td>Joon Ahn</td>
+    <td>Short</td>
+    <td>Goal→Plan→Execute statt Suchbox</td>
+  </tr>
+  <tr>
+    <td><a href="https://www.youtube.com/shorts/Sb253y1YF6w" target="_blank">Hermes Autonomous Quant Intelligence</a></td>
+    <td>unbekannt</td>
+    <td>Short</td>
+    <td>ARIA Quant Engine, Paper Trading</td>
+  </tr>
+</table>
+
+<h2>⚙️ System Status</h2>
+<div class="cmd">Ollama: 192.168.0.147:11434 ✅</div>
+<div class="cmd">Modelle: llama3.2:3b (2.0GB) | phi3:mini (2.2GB) | gemma2:2b (1.6GB)</div>
+<div class="cmd">Hermes Provider: ollama | Default: llama3.2:3b</div>
+<div class="cmd">GitHub: asw2022/okf-brain ✅ Push OK</div>
+<div class="cmd">Cron Backup: daily 06:00 (job 1b0a9cd00a64) ✅</div>
+
+<h2>🧪 Tests</h2>
+<div class="cmd">Ingest: Marie-OKF-Video-Transcript.md ✅</div>
+<div class="cmd">Query: "Was ist unser Ollama-Setup?" → systems/Ollama-Setup.md ✅</div>
+<div class="cmd">Quant: hermes quant → nicht im CLI (separates Tool) ⚠️</div>
+<div class="cmd">LieferApp: 10 Märkte, 3 Fahrer, 10 Aufträge ✅</div>
+<div class="cmd">Proposal: Template + Beispiel befüllt ✅</div>
+
+<p class="warn">⚠️ Quant Trading: nur Paper Trading, nie Live ohne Testing</p>
+<p class="ok">✅ Alle 4 Build-Punkte erledigt — kostenlos</p>
+<p style="color:#8b949e; font-size:0.7rem; margin-top:20px; text-align:center;">(c) ASW Labs</p>
+
+</body>
+</html>
