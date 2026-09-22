@@ -41,6 +41,7 @@ updated: 2026-09-22
 - [[Hermes-Autonomous-Quant]] — Quant Trading Engine
 - [[ZELDOgiq-Endlich-Unzensiert]] — 3 Wege für unzensierte KI
 - [[Grok-4.7-Programmierer]] — SpaceXAI Coding-Modell
+- [[ChatGPT-Karikatur-Self-Analysis]] — 10 Prompts KI-Psychogramm
 
 ### Systems (`systems/`)
 - [[Ollama-Setup]] — Linux Ollama + 3 Modelle
