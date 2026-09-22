@@ -27,6 +27,8 @@ updated: 2026-09-22
 - [[OKF-Ingest]] — Neues Material aufnehmen & strukturieren
 - [[OKF-Query]] — Wissen abfragen & zusammenfassen
 - [[Google-Update-Analyse]] — SEO Check nach Google Updates
+- [[LieferApp-Management]] — Märkte, PLZ-Round-Robin, Fahrer
+- [[Kanban-Management]] — Task Flow: todo → done
 - [[Proposal-Generator]] — Kundenproposal erstellen
 
 ### References (`references/`)
