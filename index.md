@@ -40,6 +40,7 @@ updated: 2026-09-22
 - [[Hermes-200IQ-Prompt]] — Joon Ahn prompt technique
 - [[Hermes-Autonomous-Quant]] — Quant Trading Engine
 - [[ZELDOgiq-Endlich-Unzensiert]] — 3 Wege für unzensierte KI
+- [[Grok-4.7-Programmierer]] — SpaceXAI Coding-Modell
 
 ### Systems (`systems/`)
 - [[Ollama-Setup]] — Linux Ollama + 3 Modelle
