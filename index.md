@@ -42,6 +42,7 @@ updated: 2026-09-22
 - [[ZELDOgiq-Endlich-Unzensiert]] — 3 Wege für unzensierte KI
 - [[Grok-4.7-Programmierer]] — SpaceXAI Coding-Modell
 - [[ChatGPT-Karikatur-Self-Analysis]] — 10 Prompts KI-Psychogramm
+- [[ChatGPT-Karikatur-10-Prompts]] — Alle 10 Prompts komplett
 
 ### Systems (`systems/`)
 - [[Ollama-Setup]] — Linux Ollama + 3 Modelle
