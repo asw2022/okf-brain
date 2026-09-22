@@ -18,3 +18,9 @@
 - Playbooks extended: LieferApp-Management, Kanban-Management, Proposal-Generator
 - Index updated
 - Query test pending: "Was ist unser Ollama-Setup?" → systems/Ollama-Setup.md
+
+## 2026-09-22 02:28
+- GitHub Remote: git@github.com:asw2022/okf-brain.git
+- Push OK: master → origin/master
+- Backup script updated: origin master
+- Cron: daily 06:00 (job 1b0a9cd00a64)
