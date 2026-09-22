@@ -36,6 +36,7 @@ updated: 2026-09-22
 - [[OKF-Google-Spec]] — Google OKF Specification
 - [[OKF-GitHub-SPEC]] — Knowledge Catalog SPEC.md
 - [[Karpathy-OKF-Gist]] — Karpathy OKF Implementation
+- [[Hermes-200IQ-Prompt]] — Joon Ahn prompt technique
 
 ### Systems (`systems/`)
 - [[Ollama-Setup]] — Linux Ollama + 3 Modelle
