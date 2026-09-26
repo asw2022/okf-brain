@@ -16,6 +16,7 @@ updated: 2026-09-22
 - [[Hermes-Agent]] — AI Assistant Capability Overview
 - [[SEO-Agentur]] — Marie Haynes SEO Methodology
 - [[Prompt-Engineering]] — Prompt Patterns & Strukturen
+- [[OpenChamber]] — Quelleffene Agenten-Oberfläche für OpenCode
 
 ### Entitäten (`entities/`)
 - [[Hermes-Desktop]] — Win11 + Linux Setup
