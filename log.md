@@ -35,3 +35,5 @@
 - Ingested: Hermes Autonomous Quant Intelligence (YouTube Short Sb253y1YF6w)
 - Added: references/Hermes-Autonomous-Quant.md
 - Index updated
+- 2026-09-28 — Lokale KI Modelle 2026 — reference — concepts/Lokale-KI-Modelle-2026.md
+- 2026-09-28 — AI Agents 2026 — Subagent-Orchestrierung — reference — references/AI-Agents-2026-Subagent-Orchestrierung.md

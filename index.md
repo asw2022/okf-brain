@@ -24,6 +24,8 @@ updated: 2026-09-22
 - [[LieferApp]] — Delivery Management System
 - [[Kanban-Board]] — G:/Download/kanban-asw.html
 
+- [[Lokale-KI-Modelle-2026]] — Lokale LLMs 2026: Ollama, Modelle, Hardware
+
 ### Playbooks (`playbooks/`)
 - [[OKF-Ingest]] — Neues Material aufnehmen & strukturieren
 - [[OKF-Query]] — Wissen abfragen & zusammenfassen
@@ -50,3 +52,4 @@ updated: 2026-09-22
 - [[Ollama-Setup]] — Linux Ollama + 3 Modelle
 - [[Brain-Dashboard]] — neural viz, 50 neurons, 113 entities
 - [[A2A-Tunnel]] — Win→Linux SSH 9901→9900
+- [[AI-Agents-2026-Subagent-Orchestrierung]] — Subagent-Orchestrierung, Boss-Agent, Retry Logic

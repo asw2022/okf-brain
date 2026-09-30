@@ -1,0 +1,27 @@
+---
+type: entity
+title: Kanban-Board
+description: ASW Kanban Board — G:/Download/kanban-asw.html, localStorage, Drag&Drop, Tags, JSON/Telegram-Export
+tags: [kanban, board, asw, html, localstorage]
+created: 2026-09-28
+updated: 2026-09-28
+source: G:/Download/kanban-asw.html
+---
+
+# Kanban-Board
+
+## Overview
+Lokale HTML-Kanban-Board mit localStorage für ASW-Projektmanagement.
+
+## Features
+- Drag & Drop Karten
+- Tags für Kategorien
+- JSON/Telegram-Export
+- localStorage-basiert (kein Server)
+
+## Datei
+- G:/Download/kanban-asw.html
+
+## Related
+- [[LieferApp]] — Delivery Management
+- [[Hermes-Desktop]] — Windows Host
