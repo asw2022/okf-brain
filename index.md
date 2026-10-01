@@ -17,6 +17,7 @@ updated: 2026-09-22
 - [[SEO-Agentur]] — Marie Haynes SEO Methodology
 - [[Prompt-Engineering]] — Prompt Patterns & Strukturen
 - [[OpenChamber]] — Quelleffene Agenten-Oberfläche für OpenCode
+- [[JEPA-World-Model]] — LeCun JEPA Architecture: World Models, Energy-Based Inference, Guardrails
 
 ### Entitäten (`entities/`)
 - [[Hermes-Desktop]] — Win11 + Linux Setup
@@ -53,3 +54,4 @@ updated: 2026-09-22
 - [[Brain-Dashboard]] — neural viz, 50 neurons, 113 entities
 - [[A2A-Tunnel]] — Win→Linux SSH 9901→9900
 - [[AI-Agents-2026-Subagent-Orchestrierung]] — Subagent-Orchestrierung, Boss-Agent, Retry Logic
+- [[JEPA-World-Model]] — Reference Python implementation: Perception, JEPA Core, Energy Function, Guardrails, Hierarchical Planner
